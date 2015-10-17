@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e9ed"
+    android:orientation="vertical"
+    tools:context="com.cyc.app.myexams.ListSubjectActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp" >
+
+        <Spinner
+            android:id="@+id/spinner_semesters"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/spinner_bg"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/subject_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/linearlayout"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="6dp"            
+        android:background="#fff"
+        android:layout_marginRight="6dp" >
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/txt_no_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:gravity="center"
+        android:text="@string/message_no_subject"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:visibility="invisible" />
+
+</RelativeLayout>

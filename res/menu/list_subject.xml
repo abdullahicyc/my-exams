@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cyc.app.myscores.ListSubjectActivity" >
+
+    <item
+        android:id="@+id/action_add_subject"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add_subject"/>
+    <item
+        android:id="@+id/action_summery_class"
+        android:showAsAction="never"
+        android:title="@string/action_summery_class"/>
+    <item
+        android:id="@+id/action_save_pdf"
+        android:showAsAction="never"
+        android:title="@string/action_save_pdf">
+    </item>
+
+</menu>

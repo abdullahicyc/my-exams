@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="school_year" translate="false">
+        <item>2 years</item>
+        <item>3 years</item>
+        <item>4 years</item>
+        <item>5 years</item>
+        <item>6 years</item>
+    </string-array>
+
+    <string name="app_name">My Exams</string>
+    <string name="developer">Abdullahi Yusuf</string>
+    <string name="copyright">Copyright © 2015 Cyc</string>
+    <string name="uni">I\'m Computer Engineering student at Hormuud University</string>
+    <string name="dev">Developed by</string>
+    <string name="app_description">a multi-user university level app for students to keep track of their exam results.</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_add_student">Add student</string>
+    <string name="action_save_student">Save</string>
+    <string name="action_cancel_student">Cancel</string>
+    <string name="title_activity_add_student">Add new student</string>
+    <string name="title_activity_list_class">ListClassActivity</string>
+    <string name="action_edit_class">Edit</string>
+    <string name="action_summery_class">Semester Summary</string>
+    <string name="action_edit_student_info">Edit Student info</string>
+    <string name="action_delete_student">Delete this student</string>
+    <string name="title_activity_list_subject">ListSubjectActivity</string>
+    <string name="action_add_subject">Add Subject</string>
+    <string name="title_activity_add_subject">Add new subject</string>
+    <string name="action_save_subject">Save</string>
+    <string name="action_cancel_subject">Cancel</string>
+    <string name="action_set_password">Set password</string>
+    <string name="action_delete_subject">Delete</string>
+    <string name="action_edit_subject">Edit</string>
+    <string name="action_change_password">Change password</string>
+    <string name="action_remove_password">Remove password</string>
+    <string name="action_delete_item">Delete</string>
+    <string name="action_owner_management">Delete Students</string>
+    <string name="activity_about_title">About</string>
+    <string name="feedback_email_example_hint">example@email.com</string>
+    <string name="action_share">Share with friends</string>
+    <string name="password_hint">This email will be asked when you forget your password.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="message_no_subject">No Subjects in this semester.</string>
+    <string name="message_no_student">No Student(s).</string>
+    <string name="action_save_pdf">Save As PDF</string>
+    <string name="your_email_label">Your Email:</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="current_password">Current password</string>
+    <string name="password">Password</string>
+    <string name="image_icon">Image Icon</string>
+    <string name="sample_text">Sample Text</string>
+    <string name="saved">SAVED</string>
+    <string name="grade">Grade</string>
+    <string name="forget_your_password_">Forget your password?</string>
+    <string name="action_view">View</string>
+    <string name="student_name">Student Name:</string>
+    <string name="university_name">University Name:</string>
+    <string name="subject_studying_at_univeristy">Subject studying at university:</string>
+    <string name="how_many_years_study">How many years you will study at university:</string>
+    <string name="ex_computer_engineering">ex: Computer Engineering</string>
+    <string name="ex_hormuud_university">ex: Hormuud University</string>
+    <string name="full_name">Full Name</string>
+
+</resources>

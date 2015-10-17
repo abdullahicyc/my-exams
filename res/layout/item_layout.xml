@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/sample_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#250054" />
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item1"
+            android:text="@string/sample_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#250054"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item2"
+            android:text="@string/sample_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#250054"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item3"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#250054" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/item1"
+            android:layout_alignBaseline="@+id/item2"
+            android:layout_alignParentRight="true"
+            android:gravity="left"
+            android:text="@string/sample_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#250054"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/item3"
+            android:layout_alignBottom="@+id/item2"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:text="@string/sample_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#250054"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/saved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/item4"
+            android:layout_alignBottom="@+id/item3"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/saved"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#aacc0c"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
